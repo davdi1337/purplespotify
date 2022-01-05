@@ -10,4 +10,4 @@
 
 # __Preview__
 #### v2 on left side, old version on right side
-![Screenshot](https://raw.githubusercontent.com/davdi1337/purplespotify/main/new/preview.png)
+![Screenshot](https://raw.githubusercontent.com/davdi1337/purplespotify/main/new/prp.png)
