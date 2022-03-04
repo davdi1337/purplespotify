@@ -9,5 +9,4 @@
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/davdi1337/purplespotify/raw/main/old/oldspotify.user.css)
 
 # __Preview__
-#### v2 on left side, old version on right side
 ![Screenshot](https://raw.githubusercontent.com/davdi1337/purplespotify/main/new/prp.png)
