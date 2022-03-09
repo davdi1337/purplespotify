@@ -4,7 +4,7 @@
 @updateURL      https://raw.githubusercontent.com/davdi1337/purplespotify/main/new/minimalpurplespotifyv2.user.css
 @homepageURL    https://github.com/davdi1337/purplespotify
 @supportURL     https://github.com/davdi1337/purplespotify/issues
-@version        2.1.185
+@version        2.1.186
 @description    Clean and minimalistic style for spotify
 @author         davdi1337
 @var color accentColor "Accent" rgb(153, 0, 255)
@@ -1567,7 +1567,7 @@ body, html, button, input, ::placeholder, span, h1, h2, h3, h4, h5 {
     
     /* wm */
     a[class~="logo"]:after {
-        content: "v2.1 - 220303";
+        content: "v2.1 - 220309";
         font-family: var(--font);
         font-size: 14px;
         position: absolute;
