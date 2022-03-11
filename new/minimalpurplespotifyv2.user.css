@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           MinimalisticPurpleSpotify
 @namespace      github.com/davdi1337
-@updateURL      https://raw.githubusercontent.com/davdi1337/purplespotify/main/new/minimalpurplespotifyv2.user.css
+@updateURL      https://userstyles.world/api/style/300.user.css
 @homepageURL    https://github.com/davdi1337/purplespotify
 @supportURL     https://github.com/davdi1337/purplespotify/issues
-@version        2.1.186
+@version        2.1.19
 @description    Clean and minimalistic style for spotify
 @author         davdi1337
 @var color accentColor "Accent" rgb(153, 0, 255)
@@ -1564,10 +1564,96 @@ body, html, button, input, ::placeholder, span, h1, h2, h3, h4, h5 {
     div[style*="--bgColor"] {
         background-color: var(--artistcover)!important;
     }
-    
+    /* 03.11 */
+    footer[data-testid*="now-playing-bar"] {
+        border: none;
+        margin: 10px;
+        border-radius: var(--borderrad1)
+    }
+    .Root__now-playing-bar {
+        background-color: var(--bg3);
+    }
+    .Root__nav-bar {
+        background-color: var(--bg2);
+        border-radius: var(--borderrad1);
+        margin: 10px;
+    }
+    .Foyk_HJx16yh22JYmQ56 {
+        background: none;
+    }
+    .Root__top-container {
+        background-color: var(--bg3);
+    }
+    [dir=ltr] .ygAuSPUkZmSMMN6ZKepO {
+        transform: translateX(-82px);
+    }
+    [dir=ltr] .ygAuSPUkZmSMMN6ZKepO .Kk9_MTeXyWaSgGNkUixu {
+        margin-right: 15px;
+    }
+    .Kk9_MTeXyWaSgGNkUixu {
+        margin-right: 0;
+        transition: margin-right .3s ease-out;
+    }
+    .contentSpacing {
+        background-color: var(--bg2);
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: var(--borderrad1);
+    }
+    .Root__main-view {
+        background-color: var(--bg3);
+        border-radius: var(--borderrad1);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: calc(100% - 10px);
+    }
+    .Root__top-bar {
+        width: calc(100% - 10px);
+        margin-top: 10px;
+        background-color: var(--bg2);
+        border-radius: var(--borderrad1);
+    }
+    header > div:first-child {
+        background: none!important;
+        border-radius: var(--borderrad1);
+    }
+    .dZPmmYYhskhqHJCAruvI,
+    .qJOhHoRcFhHJpEQ2CwFT.koyeY6AgGRPmyPITi7yO{
+        background-color: var(--bg2);
+        border-width: 2px;
+        border-color: var(--borderc);
+    }
+    .main-view-container {
+        overflow: hidden;
+        border-radius: var(--borderrad1);
+    }
+    .Z35BWOA10YGn5uc9YgAp,
+    .LunqxlFIupJw_Dkx6mNx{
+        background-color: var(--bg3);
+    }
+    .Z35BWOA10YGn5uc9YgAp:hover,
+    .LunqxlFIupJw_Dkx6mNx:hover{
+        background-color: rgba(255,255,255,.05);
+    }
+    .moDRd9td0KtitPDzR7OJ, .moDRd9td0KtitPDzR7OJ:focus, .moDRd9td0KtitPDzR7OJ:hover {
+        background-color: var(--bg3);
+    }
+    .oaNVBli46GtVjaQKB15g {
+        background-color: var(--bg3);
+    }
+    div.ASepBXU_s_s3OBsVlwbq {
+        background-color: var(--bg3)!important;
+    }
+    .CmkY1Ag0tJDfnFXbGgju {
+        border-radius: var(--borderrad2);
+    }
+    header > div > button, header > button {
+        background-color: var(--bg3)!important;
+    }
     /* wm */
     a[class~="logo"]:after {
-        content: "v2.1 - 220309";
+        content: "v2.1 - 220311";
         font-family: var(--font);
         font-size: 14px;
         position: absolute;
